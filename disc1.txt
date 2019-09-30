@@ -23,14 +23,15 @@ $ git revert <commitID>
 revert but not commit
 $ git revert -n 
 
+reset after add but before commit 
 unstage all changes
 $ git reset <file> 
 or
 $ git reset 
 
 
-
-$ git reset --hard
+roll back to previous commit 
+$ git reset --hard <commitID>
 
 
 Branching 
