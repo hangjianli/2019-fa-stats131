@@ -14,6 +14,8 @@ Push committed changes to remote server
 $ git push
 
 
+
+
 discard changes: 
 $ git checkout -- <filename>
 
