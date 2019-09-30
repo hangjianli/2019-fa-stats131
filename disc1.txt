@@ -19,11 +19,7 @@ $ git push
 discard changes: 
 $ git checkout -- <filename>
 
-revert and commit 
-$ git revert <commitID>
 
-revert but not commit
-$ git revert -n 
 
 reset after add but before commit 
 unstage all changes
@@ -31,6 +27,12 @@ $ git reset <file>
 or
 $ git reset 
 
+
+revert and commit 
+$ git revert <commitID>
+
+revert but not commit
+$ git revert -n 
 
 roll back to previous commit 
 $ git reset --hard <commitID>
