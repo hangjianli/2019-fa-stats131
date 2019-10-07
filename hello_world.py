@@ -5,6 +5,4 @@ def hello():
 if __name__ == '__main__':
     a = hello()
     print(a)
-    hi()
-    hello_withnoreturn()
-
+    
